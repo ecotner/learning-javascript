@@ -1,0 +1,39 @@
+#puck {
+    background-color: #00FF00;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: #303030;
+    margin: 0;
+}
+
+.paddle {
+    background-color: #00FF00;
+    position: absolute;
+    height: 200px;
+    width: 50px;
+}
+
+#opponent {
+    left: 100px;
+}
+
+#player {
+    right: 100px;
+}
+
+#scorecard {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #00FF00;
+    font-size: 5em;
+}
+
+#scorecard-spacer {
+    width: 5vw;
+}
